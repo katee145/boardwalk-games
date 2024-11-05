@@ -46,6 +46,34 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: #ffffff;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    background-color: #ffffff;
+    color: var(--highlight-color);
+    padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: #ffffff;
+    padding: 7px 25px;
+}
+
 /* Navbar */
 
 #navbar {
