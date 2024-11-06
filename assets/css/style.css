@@ -145,6 +145,8 @@ h2 {
 #contact .social-links i {
     color: var(--light-hightlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -155,24 +157,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/*#reserve-games {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 480px;
-}*/
-
-/* grid visualisation CSS for testing*/
-
-/* .container,
-.row {
-    border: 2px solid #000000;
-}
-
-.col-12{
-    border: 2px solid #ffffff;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 
